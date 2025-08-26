@@ -1,0 +1,33 @@
+{
+  "model_type": "LinearRegression",
+  "features": [
+    "pass_touchdown",
+    "season_average_fantasy_points_ppr",
+    "rushing_yards"
+  ],
+  "performance": {
+    "r2_score": 0.976271568625518,
+    "rmse": 17.815025117557287,
+    "mae": 14.515089868358196
+  },
+  "training_info": {
+    "training_samples": 89,
+    "test_samples": 23,
+    "cv_r2_mean": 0.950914829077886,
+    "cv_r2_std": 0.01226621126054383,
+    "target_variable": "fantasy_points_ppr",
+    "position": "QB"
+  },
+  "feature_coefficients": {
+    "pass_touchdown": 87.79084321587267,
+    "season_average_fantasy_points_ppr": 10.38747536429453,
+    "rushing_yards": 34.30418338532789
+  },
+  "intercept": 242.50629213483148,
+  "created_date": "2025-08-26 17:59:01",
+  "data_years": [
+    2022,
+    2023,
+    2024
+  ]
+}
